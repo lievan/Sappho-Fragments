@@ -8,18 +8,22 @@ https://drive.google.com/drive/folders/1-06ovXFjuf9jF72Mv4cd0TvBiCLBJGdi?usp=sha
 **Install gpt-2 simple**
 
 ```
- pip install -q gpt-2-simple
+pip install -q gpt-2-simple
 ```
 ## Poem Generation
 ```
 from SapphoFragments import SapphoGenerator
+
 fragments = ['to Sappho, you', 'in Kypros queen', 'and yet greatly', 'to all on whom the blazing', 'everywhere glory' ,'and you in Acheron’s']
+
 generator = SapphoGenerator(path_to/SapphoGPT2)
+
 poem = generator.generate_poem(fragments)
+
 print(poem)
 ```
 
-Output:
+**Output:**
 ```
 to Sappho, you [ love me even sweeter than when I met you
 and you have graceless heart against me now
